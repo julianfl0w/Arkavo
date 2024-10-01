@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>Arkavo | Social network powered by OpenTDF</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="icon" href="images/favicons/favicon.png" />
+
+    <link rel="canonical" href="https://arkavo.com/" />
+    <meta property="og:type" content="Code Collective" />
+    <meta
+      property="og:image"
+      content="images/logo_transparent_small_original.png"
+    />
+    <meta property="og:url" content="http://arkavo.com/" />
+    <meta property="og:site_name" content="Code Collective" />
+    <meta property="og:title" content="Code Collective" />
+    <meta
+      property="og:description"
+      content="Social network powered by OpenTDF."
+    />
+    <meta name="description" content="Social network powered by OpenTDF." />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <script type="module" src="./js/reusableComponents.js"></script>
+  </head>
+
+  <body id="body">
+    <our-header></our-header>
+
+    <button id="toggle-dark-mode">☀️</button>
+
+    <!-- Wrapper -->
+    <div id="wrapper" , class="dark-mode">
+      <!-- Main -->
+      <section id="main" class="longform dark-mode">
+        <a href="https://www.meetup.com/devops-columbia/"
+          >Do you live in Columbia MD and want to get involved? Join the Dev
+          Ops Meetup!</a
+        >
+
+        <h1>Upcoming Events for DevOps Columbia</h1>
+                <div>
+                    <h2><a href="https://www.meetup.com/devops-columbia/events/303495860/" target="_blank">Optimizing Database Management in Kubernetes</a></h2>
+                    <h3>Date and Time:</h3>
+                    2024-10-17 19:00:00 EST
+                    <h3>Location</h3>
+                    No location available
+                    <h3>Description</h3>
+                    Unlock the full potential of database management in Kubernetes environments using Dragonfly, Redis, and PostgreSQL as key examples. While Kubernetes was initially designed with a focus on stateless applications, this talk explores its evolved and robust capabilities for managing stateful workloads like databases.
+We&#x27;ll explore how Dragonfly, with its high Redis compatibility, seamlessly integrates into the in-memory data ecosystem and how Kubernetes operators (such as the Dragonfly operator) and unified control planes (such as KubeBlocks) can simplify database operations. This session will provide insights into simplifying management, enhancing scalability and availability, and optimizing the overall platform experiences for in-memory data stores and other databases.
+This talk is ideal for backend engineers, database professionals, cloud architects, and DevOps/platform engineers looking to optimize their database strategies in modern cloud, orchestrated environments.
+
+**Speaker Bio**
+Joe Zhou is a passionate advocate for cloud-native technologies and cutting-edge data infrastructure solutions, with a keen interest in databases of all kinds.
+Having served as the CTO of a dynamic start-up company, Joe excels at directing and inspiring team members to deliver exceptional results. Now serving as a Developer Advocate at Dragonfly, a modern, multi-threaded, Redis and Valkey-compatible in-memory data store, Joe is committed to championing this innovative solution. He empowers developers to leverage Dragonfly&#x27;s full potential, driving performance and efficiency across diverse in-memory and real-time use cases.
+                </div>
+                <hr>
+            
+      </section>
+
+      <our-footer></our-footer>
+    </div>
+
+    <our-slack-link></our-slack-link>
+
+    <!-- Scripts -->
+    <!-- Clicky Analytics -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        document.body.classList.add("loaded"); // Add 'loaded' class when the document is fully loaded
+      });
+    </script>
+    <script src="./js/scripts.js" type="module"></script>
+    <script src="./lightdark.js"></script>
+  </body>
+</html>

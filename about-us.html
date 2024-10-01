@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <title>Arkavo | Social network powered by OpenTDF</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link rel="icon" href="images/favicons/favicon.png" />
+
+    <link rel="canonical" href="https://codecollective.us/" />
+    <meta property="og:type" content="Arkavo" />
+    <meta property="og:url" content="http://codecollective.us/" />
+    <meta property="og:site_name" content="Arkavo" />
+    <meta property="og:title" content="Arkavo" />
+    <meta
+      property="og:image"
+      content="images/logo_transparent_small_original.png"
+    />
+    <meta
+      property="og:description"
+      content="Social network powered by OpenTDF."
+    />
+    <meta name="description" content="Social network powered by OpenTDF." />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="googlebot" content="index, follow" />
+    <link rel="stylesheet" href="./css/master.css" />
+    <script type="module" src="./js/reusableComponents.js"></script>
+  </head>
+
+  <body class="body">
+    <our-header></our-header>
+    <button id="toggle-dark-mode">☀️</button>
+
+    <!-- Wrapper -->
+    <div id="wrapper" , class="dark-mode">
+      <!-- Main -->
+      <section id="main" class="longform dark-mode">
+        <h1>About Us</h1>
+        <p>
+          Arkavo is a new Reddit-like forum built on OpenTDF. This means your
+          content is under your control - always.
+        </p>
+        <br />
+        <h1>C Suite</h1>
+        <div class="row">
+          <!-- Center the single column using offset -->
+          <div class="card">
+            <div class="imageBox">
+              <div class="imageInn">
+                <img
+                  src="images/paulflynn.png"
+                  alt="Developer Image"
+                  class="circle-image"
+                />
+              </div>
+              <div class="hoverImg">
+                <img
+                  src="images/paulflynn.png"
+                  alt="Developer Profile Image"
+                  class="circle-image"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <p>
+                <b>Paul Flynn</b> is a senior software engineer at DC’s Virtru
+                who helped build the Obamacare website. With over 20 years of
+                engineering experience, Paul is ready to bring the next
+                generation forum experience to the world.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h1>Advisors</h1>
+        <div class="row">
+          <div class="card">
+            <div class="imageBox">
+              <div class="imageInn">
+                <img
+                  src="images/julian_headshot.jpeg"
+                  alt="Default Image"
+                  class="circle-image"
+                />
+              </div>
+              <div class="hoverImg">
+                <img
+                  src="images/julian4.jpg"
+                  alt="Profile Image"
+                  class="circle-image"
+                />
+              </div>
+            </div>
+            <div class="card-content">
+              <p>
+                <b>Julian Coy</b> is a leading authority in cybernetic thought.
+                Having published a curriculum of courses in the Cybernetic
+                domain, including such fields as Computer Science, Artificial
+                Intelligence, Sociology, Economics, Biology, Mathematics, and
+                other fields involving Communications and Control in the Animal
+                and the Machine, Julian is well prepared to ensure the
+                operational excellence of Arkavo. He currently operates Code
+                Collective, a cybernetic syncretism making available free
+                experience to job seekers and free labor to established
+                professionals.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <our-footer></our-footer>
+    </div>
+
+    <our-slack-link></our-slack-link>
+
+    <!-- Scripts -->
+    <!-- Clicky Analytics -->
+    <script
+      data-cfasync="false"
+      src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"
+    ></script>
+    <script async data-id="101449400" src="//static.getclicky.com/js"></script>
+    <!-- <script src="./load-navbar.js"></script> -->
+    <script src="./lightdark.js">
+      document.addEventListener("DOMContentLoaded", function() {
+            document.body.classList.add("loaded"); // Add 'loaded' class when the document is fully loaded
+          });
+    </script>
+    <script src="./lightdark.js"></script>
+    <script src="./js/scripts.js" type="module"></script>
+  </body>
+</html>
